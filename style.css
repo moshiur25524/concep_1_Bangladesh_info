@@ -15,7 +15,7 @@ body {
 }
 
 .photo img {
-    width: 200px;
+    width: 350px;
 }
 
 .details-btn {
@@ -34,4 +34,39 @@ body {
 .second-section{
     text-align: center;
     margin-top: 50px;
+}
+
+.all-divisions{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.division{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px;
+    border-radius: 5px;
+}
+
+.div-img img{
+    width: 100%;
+}
+
+.bottom-section{
+    padding: 15px;
+}
+
+.details{
+    background-color: red;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: .8s;
+}
+
+.details:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
 }
